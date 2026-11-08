@@ -38,7 +38,7 @@ A reusable Next.js App Router template with TypeScript, Tailwind CSS v4, shadcn/
 
 - App Router with `error.tsx`, `loading.tsx`, and `not-found.tsx` boundaries
 - `cacheComponents` and `partialPrefetching` enabled in `next.config.ts`
-- shadcn/ui components: `accordion`, `button`, `card`, `input`, `label`, `textarea`
+- Full shadcn/ui component set (63 components) in `src/components/ui/`, including `accordion`, `alert`, `alert-dialog`, `avatar`, `badge`, `breadcrumb`, `button`, `button-group`, `calendar`, `card`, `carousel`, `chart`, `checkbox`, `collapsible`, `combobox`, `command`, `context-menu`, `dialog`, `drawer`, `dropdown-menu`, `empty`, `field`, `hover-card`, `input`, `input-group`, `input-otp`, `item`, `kbd`, `label`, `menubar`, `navigation-menu`, `pagination`, `popover`, `progress`, `radio-group`, `resizable`, `scroll-area`, `select`, `separator`, `sheet`, `sidebar`, `skeleton`, `slider`, `spinner`, `switch`, `table`, `tabs`, `textarea`, `toast`, `toggle`, `toggle-group`, `tooltip`, plus project-specific `attachment`, `bubble`, `code-block`, `direction`, `marker`, `message`, `message-scroller`, `native-select`, `questionnaire`, `trace`
 - Contact API route (`POST /api/contact`) validated with Zod and sent via Nodemailer
 - Toast provider mounted in the root layout
 - GSAP/ScrollTrigger registration helper (`src/lib/gsap.ts`)
