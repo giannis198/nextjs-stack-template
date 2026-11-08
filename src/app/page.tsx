@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { ToastDemoButton } from "@/components/demo-toast-button";
 import { siteConfig } from "@/config/site";
 import { spacing, typography } from "@/config/design-tokens";
 
@@ -57,6 +58,7 @@ export default function HomePage() {
           <Button size="lg" variant="outline">
             Browse components
           </Button>
+          <ToastDemoButton />
         </div>
       </section>
 
